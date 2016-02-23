@@ -1,0 +1,110 @@
+#login #content{
+    font: "HELVETICA REGULAR";
+    width: 100%;
+    float: right;
+    background-color: #EFEFEF;
+    top: 0%;
+    /* position: absolute; */
+    height: 100vh;
+}
+
+#login #bgImg{
+    width: 100%;
+    background-image: url('../images/Register/register_screen-menu-bg.png');
+    background-repeat: no-repeat;
+    float: right;
+    background-position: center center;
+    top: 10%;
+    background-size: 83%;
+    position: absolute;
+    height: 70%;
+}
+
+#login #headerReg{
+    background-image: url('../images/Header/header_plain_no_top_line.png');
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    font: "HELVETICA REGULAR";
+    background-repeat: no-repeat;
+    padding-bottom: 18%;
+    position: fixed;
+    height: 1px;
+    top: 0%;
+    color: #ffffff;
+}
+
+#login #title {
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 35%;
+    font:"HELVETICA BOLD";
+    color: #ffffff;
+}
+
+#login form {
+    font-size: 22px;
+    padding: 0% 0%;
+    width: 65%;
+    float: left;
+    position: absolute;
+    left: 17%;
+    top: 24%;
+    height: 50%;
+}
+
+#login img {
+    width: 90%;
+    display: block;
+    margin-right: 6%;
+    float: right;
+    height: 20%;
+}
+
+#login h2 {
+    text-align: center;
+    font-size: 22px;
+    margin: 5px;
+    color: #600723;
+}
+
+#login input {
+    background-image: url("../images/Register/text-input-box.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2% 5% 2% 0%;
+    width: 93%;
+    margin-bottom: 2%;
+    float: right;
+    font-size: 22px;
+    border: none;
+    text-indent: 0.5em;
+    font: "HELVETICA REGULAR";
+}
+
+#login .loginbutton {
+    background-image: url("../images/Register/accept-button.png");
+    width: 78%;
+    left: 12%;
+    float: right;
+    font-size: 28px;
+    background-size: cover;
+    padding: 0;
+    background-color: transparent;
+    top: 105%;
+    position: absolute;
+    height: 21%;
+}
+
+#login #goToRegister{
+    float: left;
+    margin: auto;
+    left: 33%;
+    top: 46%;
+    font-size: 22px;
+    background-color: #ffffff;
+    position: absolute;
+    font: "HELVETICA REGULAR";
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <title>Coinz App</title>
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+    <script src="../js/lib/lazyload.js"></script>
+    <script src="../js/includeNoCordova.js"></script>
+    <script>
+        include.execute(function(){
+            registerForm.init();
+        });
+    </script>
+</head>
+<body>
+
+<div class="coinzPage" id="register">
+    <div id="headerReg">
+        <div id="title"></div>
+    </div>
+
+    <div id="content">
+
+        <div id="subTitle">
+            One time register
+        </div>
+        <div id="bgImg"></div>
+        <form id="registerFormOne">
+            <input type="text" name="firstname" id="firstname" placeholder="  First Name"  required />
+            <input type="text" name="lastname" id="lastname" placeholder="  Last Name" required />
+            <input type="text" name="phone" id="phone"
+                   placeholder="  Phone number"
+                   required />
+            <input type="password" name="password" id="password" placeholder="  Choose a password" required />
+            <input type="text" name="email" id="email" placeholder="  Email"required />
+            <input type="hidden" name="beit_chabad_id" id="owner_beit_chabad" value=""/>
+            <input name="terms" type="checkbox" id="chkSelect"/>
+                    <span id="termsText">
+I approve the
+                        <a id="goToTerms" href="javascript:void(0);">
+                            service terms
+                        </a>
+                    </span>
+            <input type="submit" id="registerBtn" class="registerbutton" value="" />
+        </form>
+
+
+        <div id="spinner"></div>
+    </div>
+
+<span id="loginText">
+already registered?
+                    <a id="goToLogin" href="javascript:void(0);">
+                        click here
+                    </a>
+</span>
+
+</div>
+
+<div id="appterms">
+    <div id="headerTerms">
+        <div id="titleTerms">
+            CoinZ terms of use
+        </div>
+    </div>
+    <div id="stripContainer">
+        <div id="goBack"></div>
+    </div>
+
+    <div class="text">
+        Coinz ("Coinz", “Company”) welcome you (“User” or “you”) to our full featured interactive mobile device application. Users may use the App in accordance with the terms and conditions hereunder.
+        <br>
+        <br>
+        Acceptance of the Terms
+        By installing the App on your mobile device, entering into, connecting to, using and/or accessing any of the App, you acknowledge that you have read and understood the following terms and you agree to be bound by them and to comply with all applicable laws and regulations regarding your use of the App and you acknowledge that these Terms constitute a binding and enforceable legal contract between Coinz and you.
+        <br>
+        <br>
+        The App is offered only to individuals who possess the legal capacity to enter into these Terms and to form a binding agreement under any applicable law, or have received the required consent from their legal guardian to enter into these Terms. Therefore, you hereby represent that you possess the legal authority to enter into these Terms and to form a binding agreement under any applicable law, to use the App in accordance with these Terms, and to fully perform your obligations hereunder. If you are under the age of 18, you represent that your legal guardian has reviewed and agreed to these Terms.
+        The App
+        Coinz offers charity and donations services including relevant information (such as reminders for special events, gatherings and special occasions). Please note that the App may only be available for certain operating systems (such as iOS, Android, Windows OS, or Windows 8). The User may only download and use the App on a device running validly licensed copies of the operating systems on which the App was designed to operate. To be able to access and/or use the App, or any portion thereof, User must legally obtain all the applicable or required facilities, utilities, software and equipment at his/her sole risk and expense.
+        User Restrictions
+        There are certain conducts which are strictly prohibited when using the App. Please read the following restrictions carefully. Failure to comply with any of the provisions set forth herein may expose a User to civil and/or criminal liability.
+        Coinz is not liable for any damages or loss incurred related to donations or any other use of the Service. Coinz is under no obligation to become involved in disputes between any Users, or between Users and any third party arising in connection with the use of the application.
+        Coinz does not oversee the performance of the charity organization. You release Coinz, its officers, employees, agents, and successors in rights from claims, damages, and demands of every kind, known or unknown, suspected or unsuspected, disclosed or undisclosed, arising out of or in any way related to such disputes and the Service.
+        Coinz will not be liable for the issuance of receipts. It is the sole responsibility of the charity organization to issue invoices and/or receipts.
+        <br>
+        <br>
+
+        You may not (and you may not permit any User or third party to): (a) use the App for any illegal, immoral, unlawful and/or unauthorized purposes; (b) use the App and/or Content (as such term is defined below) for non-personal or commercial purposes without Company’s express prior written consent; (c) fail to pay any fees (to the extent applicable), if ,for example, your credit card was blocked or the use thereof was limited in any way; (d) interfere with or violate Users' rights to privacy and other rights, or harvest or collect personally identifiable information about Users without their express consent, whether manually or with the use of any robot, spider, crawler, any search or retrieval application, or use other manual or automatic device, process or method to access the App and retrieve, index and/or data-mine information; (e) interfere with or disrupt the operation of the App or the servers or networks that host the App, or disobey any laws or regulations or requirements, procedures, policies, or regulations of such servers or networks; (f) falsely state or otherwise misrepresent your affiliation with any person or entity, or express or imply that the Company endorses you, your site, your business or any statement you make, or present false or inaccurate information about the App; (g) take any action that imposes, or may impose, an unreasonable or disproportionately large load on our platform infrastructure, as determined by Coinz; (h) remove or disassociate, from the Content and/or the App any copyright, trademark or other proprietary notices contained in such materials (such as ©,™, or ®); and/or (r) infringe and/or violate any of the Terms.
+        License
+        Subject to the terms hereof, Coinz hereby grants to you, and you accept, a personal, nonexclusive, non-commercial, non-transferable, non-sublicensable and fully revocable limited license to download and use the App on your authorized mobile telephone, device or tablet that you own or control (“Device”) solely for the limited purpose of your internal non-commercial use, and for no other purpose, strictly in accordance with the Terms, the applicable Usage Rules (defined below) and applicable law.
+        Ownership; Copyright Protection
+        The App, the Content and the Company's proprietary assets and any and all intellectual property rights pertaining thereto, including, but not limited to, inventions, patents and patent applications, trademarks, trade names, copyrightable materials, graphics, text, images, designs (including the "look and feel" of the App) specifications, methods, procedures, information, know-how, algorithms, data, technical data, interactive features, source and object code, files, interface, GUI and trade secrets, whether or not registered or capable of being registered (collectively, “Intellectual Property”), are owned by and/or licensed to the Company and are protected by applicable copyright and other intellectual property laws and international conventions. Notwithstanding anything to the contrary herein, you agree that the App are licensed hereunder, not sold. All rights not expressly granted to you hereunder are reserved by the Company and its licensors.
+        Trademarks and Trade names
+        <br>
+        <br>
+        Coinz marks and logos and all other proprietary identifiers used by the Company in connection with the App (“Company Trademarks”) are all trademarks and/or trade names of the Company, whether or not registered.
+        <br>
+        <br>
+
+        Availability
+        The App' availability and functionality depend on various factors, such as software, hardware and the Company's services' providers and contractors. The Company does not warrant or guarantee that the App will operate at all times without disruption or interruption, or that it will be immune from unauthorized access or error-free.
+        Changes to the App
+        The Company reserves the right to modify, correct, amend, enhance , improve, make any other changes to, or discontinue, temporarily or permanently, the App (or any part thereof) without notice, at any time. In addition, you hereby acknowledge that the Content provided under the App may be changed, extended in terms of content and form or removed at any time without any notice to you. You agree that Coinz shall not be liable to you or to any third party for any modification, suspension, or discontinuance of the App and/or the Content included therein.
+        <br>
+        <br>
+        Amendments to the Terms
+        The Company may, at its sole discretion, may change the Terms from time to time. In the event that the Terms should be amended to comply with any legal requirements, the amendments may take effect immediately, or as required by the law and without any prior notice.
+        Limitation of Liability
+        TO THE MAXIMUM EXTENT LEGALLY PERMISSIBLE, IN NO EVENT SHALL COINZ INCLUDING THE COVERED PARTIES BE LIABLE FOR ANY DAMAGES WHATSOEVER INCLUDING, BUT NOT LIMITED TO, DIRECT, INDIRECT, SPECIAL, PUNITIVE, EXEMPLARY, INCIDENTAL OR CONSEQUENTIAL DAMAGES OF ANY KIND, UNDER ANY LEGAL THEORY.
+
+        IN ANY CASE, WITHOUT LIMITING THE GENERALITY OF THE AFOREGOING AND TO THE MAXIMUM EXTENT LEGALLY PERMISSIBLE, COINZ's TOTAL AGGREGATE LIABILITY FOR ALL DAMAGES OR LOSSES WHATSOEVER ARISING HEREUNDER OR IN CONNECTION WITH YOUR USE OR INABILITY TO USE THE APP OR THE CONTENT SHALL BE LIMITED TO THE AMOUNT OF US100$.
+        INASMUCH AS SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSIONS OR LIMITATIONS AS SET FORTH HEREIN, THE FULL EXTENT OF THE ABOVE EXCLUSIONS AND LIMITATIONS MAY NOT APPLY.
+        Indemnification
+        You agree to defend, indemnify and hold harmless the Company against all claims, damages, obligations, losses, liabilities, costs, debts, and expenses (including but not limited to attorney's fees) arising from: (i) your use, misuse of , inability to use and/or activities in connection with the App and/or Content; (ii) your violation of any of these Terms; (iii) your violation of any third party rights, including without limitation any intellectual property rights or privacy right of such third party; and (iv) any damage of any sort, whether direct, indirect, special or consequential, you may cause to any third party with relation to the App. It is hereby clarified that this defense and indemnification obligation will survive these Terms.
+
+        Without derogating from the foregoing, we reserve the right, at our expense, to assume the exclusive defense and control of any matter which is subject to indemnification by you, which will not excuse your indemnity obligations hereunder and in in which event you will fully cooperate with us in asserting any available defense. You agree not to settle any matter subject to an indemnification by you without first obtaining our prior express written approval.
+        <br>
+        <br>
+        General
+        (a)These Terms constitute the entire terms and conditions between you and the Company relating to the subject matter herein and supersedes any and all prior or contemporaneous written or oral agreements or understandings between you and the Company,
+        (b)Any dispute arising out of or related to the App will be brought in, and you hereby consent to exclusive jurisdiction and venue in, the competent courts of the Tel-Aviv-Jaffa District, Israel. You agree to waive all defenses of lack of personal jurisdiction and forum non-convenience and agree that process may be served in a manner authorized by applicable law or court rule.
+
+        <br>
+        <br>
+        Information, Support or Questions:
+        Coinz will make reasonable efforts to provide you with technical and product support for the App. For information, support or questions, please contact us at: admin@coinz.co.il
+
+    </div>
+</div>
+
+</body>
+</html>

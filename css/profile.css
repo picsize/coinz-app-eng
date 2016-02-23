@@ -1,0 +1,51 @@
+#profileHeader {
+    position: absolute;
+    top: -18%;
+    background-color: transparent;
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+#profileHeader a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#donationsPage #stripProfileContainer {
+    background-color: #EFEFEF;
+    position: fixed;
+    height: 10%;
+    float: left;
+    width: 100%;
+    top: 9%;
+}
+
+#donationsPage #remindersTab {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    padding: 4% 2% 0% 2%;
+    text-align: -webkit-center;
+    top: 9%;
+    height: 65%;
+    right: 0%;
+    position: absolute;
+    background-color: #ADADAD;
+}
+
+#donationsPage #donationsTab {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    padding: 4% 2% 0% 2%;
+    text-align: -webkit-center;
+    top: 9%;
+    height: 65%;
+    right: 50%;
+    position: absolute;
+    color: #FFFFFF;
+    background: #065985;
+}

@@ -1,0 +1,185 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+.ui-mobile, .ui-mobile .ui-page {
+    min-height: 100% !important;
+}
+
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+    padding-top: 20.5%;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face {
+    font-family: "HELVETICA REGULAR";
+    src: url("../fonts/HELVC_.TTF")
+    format("truetype");
+}
+
+@font-face {
+    font-family: "HELVETICA BOLD";
+    src: url("../fonts/helvb_.ttf")
+    format("truetype");
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: right;
+    direction: ltr;
+    font-family: "HELVETICA REGULAR";
+    background-color: #EFEFEF;
+}
+
+body div,
+body input
+{
+    font-family: "HELVETICA REGULAR";
+}
+
+#splash {
+    /* background-image: url('../images/Splash/splash_screen_eng.jpg'); */
+    width:100%;
+    background-size: cover;
+}
+
+
+a:visited {
+    color: #00A7E8;
+}
+
+a {
+    outline: 0;
+}
+
+#header{
+    background-image: url('../images/Header/header.png');
+    background-size: contain;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    font-family: "HELVETICA REGULAR";
+    background-repeat: no-repeat;
+    padding-bottom: 18%;
+    position: fixed;
+    /* height: 0px; */
+    top: 0%;
+    color: #ffffff;
+    z-index: 100;
+}
+
+#headerLogoImg {
+    background-image: none;
+    background-size: contain;
+    width: 20.5%;
+    height: 6%;
+    position: fixed;
+    left: 3%;
+    top: 1.7%;
+    border: none;
+    background-repeat: no-repeat;
+}
+
+#info {
+    background-image: url('../images/Header/info.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 12%;
+    position: absolute;
+    right: 2%;
+    float: right;
+    top: 13%;
+    height: 61%;
+}
+
+#header #beitChabadLabelTop {
+    top: 18%;
+    left: 15%;
+    margin-right: 15%;
+    text-align: left;
+    float: none;
+    font-weight: bold;
+    color: #ffffff;
+    width: 70%;
+    font: "HELVETICA BOLD";
+    position: absolute;
+}
+
+#header #beitChabadLabelBottom {
+    top: 46%;
+    left: 15%;
+    margin-right: 15%;
+    text-align: left;
+    float: none;
+    color: #ffffff;
+    width: 70%;
+    font: "HELVETICA REGULAR";
+    position: absolute;
+}
+
+body .ui-body-c, body .ui-overlay-c {
+    text-shadow:0 0 0;
+}
+
+.dynamic_height {
+    width:100%;
+    display:block;
+    clear:both;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#title {
+    font-family: "HELVETICA BOLD";
+}
+
+

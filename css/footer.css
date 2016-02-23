@@ -1,0 +1,96 @@
+#footer {
+    text-align: center;
+    position: fixed;
+    top: 88.5%;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+#footer a.main {
+    background-image: url('../images/Footer/home_e_off.png');
+    width: 25%;
+    height: 12%;
+    margin: auto;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+#footer a.main.active {
+    width: 25%;
+    height: 12%;
+    margin: auto;
+    background-image: url('../images/Footer/home_e_on.png');
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+#footer a.donate {
+    background-image: url('../images/Footer/donation_e_off.png');
+    width: 25%;
+    height: 12%;
+    margin: 0;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+#footer a.donate.active {
+    background-image: url('../images/Footer/donation_e_on.png');
+    width: 25%;
+    height: 12%;
+    margin: 0;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+#footer a.msg {
+    background-image: url('../images/Footer/messages_e_off.png');
+    width: 25%;
+    height: 12%;
+    margin: 0;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+#footer a.msg.active {
+    background-image: url('../images/Footer/messages_e_on.png');
+    width: 25%;
+    height: 12%;
+    margin: 0;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+#footer a.profile {
+    background-image: url('../images/Footer/profile_e_off.png');
+    width: 25%;
+    height: 12%;
+    margin: 0;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+
+#footer a.profile.active {
+    background-image: url('../images/Footer/profile_e_on.png');
+    width: 25%;
+    height: 12%;
+    margin: 0;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}

@@ -1,0 +1,471 @@
+ul {
+    list-style: none;
+    padding-top: 15.5%;
+    height: 45%;
+}
+
+#addRemindersHeader {
+    position: absolute;
+    top: 77%;
+    background-color: transparent;
+    float: left;
+    height: 103%;
+    width: 99.5%;
+    z-index: 100;
+}
+
+#addReminderPage #goBackAddReminder {
+    background-image: url('../../images/Buttons/back.png');
+    background-size: contain;
+    width: 24%;
+    float: left;
+    height: 6%;
+    background-repeat: no-repeat;
+    top: 10%;
+    left: 0%;
+    position: absolute;
+    z-index: 1000;
+}
+
+#addRemindersHeader a {
+    text-decoration: none;
+    color: #ffffff;
+    z-index: 100;
+}
+
+#addReminderPage #stripAddRemindersContainer {
+    background-color: #EFEFEF;
+    position: fixed;
+    height: 10%;
+    float: left;
+    width: 100%;
+    top: 9%;
+    z-index: 100;
+}
+
+#addReminderPage #content{
+    height: 84%;
+    width: 90.6%;
+    float: left;
+    top: 3%;
+    position: fixed;
+    background-size: contain;
+    left: 4.8%;
+    z-index: 0;
+}
+
+#addReminderPage #remindersTab {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    padding: 4% 2% 0% 2%;
+    text-align: -webkit-center;
+    top: 9%;
+    height: 65%;
+    right: 0%;
+    position: absolute;
+    color: #FFFFFF;
+    background-color: #ADADAD;
+}
+
+#addReminderPage #donationsTab {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    padding: 4% 2% 0% 2%;
+    text-align: -webkit-center;
+    top: 9%;
+    height: 65%;
+    right: 50%;
+    position: absolute;
+    background: #065985;
+}
+
+#addReminderPage #backgroundImg {
+    background-repeat: no-repeat;
+    float: left;
+    top: 18.5%;
+    left: -1.5%;
+    width: 100.5%;
+    position: absolute;
+    height: 69%;
+}
+
+#addReminderPage #titlePressOK {
+    width: 82%;
+    border: none;
+    text-align: center;
+    font-size: 22px;
+    color: #726C6C;
+    position: absolute;
+    float: left;
+    top: 19%;
+    left: 5.4%;
+    padding: 4% 4% 4% 4%;
+}
+
+
+#addReminderPage #formAddReminder {
+    position: absolute;
+    top: -3%;
+    left: 0%;
+    float: left;
+    height: 111%;
+    width: 100%;
+}
+
+#addReminderPage #typeSelect {
+    width: 98%;
+    float: right;
+    position: absolute;
+    top: 27%;
+}
+
+#addReminderPage #formOptions li #yearly {
+}
+
+#addReminderPage .yearly_options #weekly,
+#addReminderPage .weekly_options #yearly,
+#addReminderPage .daily_options #yearly,
+#addReminderPage .daily_options #weekly
+{
+    display:block;
+}
+
+#addReminderPage .yearly_options {
+    position: absolute;
+    left: 17%;
+    float: left;
+    top: 23%;
+    width: 58%;
+    height: 37%;
+}
+
+#addReminderPage .weekly_options {
+    margin-top:31%;
+}
+
+#addReminderPage .daily_options {
+    margin-top:56%;
+}
+
+#addReminderPage #yearly {
+    top: 16%;
+    position: absolute;
+    width: 100%;
+    float: left;
+    height: 41%;
+    left: 34%;
+}
+
+#addReminderPage #weekly {
+    top: 59%;
+    position: absolute;
+    width: 100%;
+    float: left;
+    height: 40%;
+    left: 34%;
+}
+
+#addReminderPage #daily {
+    top: 106%;
+    position: absolute;
+    width: 100%;
+    float: left;
+    height: 15%;
+    left: 34%;
+}
+
+#addReminderPage #typeSelect li input{
+    visibility: hidden;
+}
+
+#addReminderPage #typeSelect #weeklyInput{
+    top: 239%;
+    position: absolute;
+    float: left;
+    left: 86%;
+}
+
+#addReminderPage #typeSelect #yearlyLabel {
+    right: 87%;
+    position: absolute;
+    top: 20%;
+    width: 2%;
+    float: left;
+    height: 8%;
+}
+
+#addReminderPage #typeSelect #dailyLabel {
+    margin-right: 1%;
+    position: absolute;
+    margin-top: 11%;
+}
+
+#addReminderPage #typeSelect #weeklyLabel {
+    right: 10%;
+    position: absolute;
+    top: 62%;
+    width: 2%;
+    float: left;
+    height: 10%;
+    left: -1%;
+}
+
+#addReminderPage #typeSelect #dailyLabel {
+    right: 9%;
+    position: absolute;
+    top: 76%;
+    width: 2%;
+    float: left;
+    height: 10%;
+    left: -1%;
+}
+
+#addReminderPage #typeSelect li label {
+    background-image: url("../../images/Profile/radio-button-off.png");
+    float: right;
+    height: 30%;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-size: 50%;
+    padding: 0px 6%;
+    right: 7%;
+}
+
+
+#addReminderPage #typeSelect li label.checked {
+    background-image: url("../../images/Profile/radio-button-on.png");
+}
+
+
+#addReminderPage #yearTextForYearly{
+    color: #363536;
+    float: right;
+    left: 25%;
+    top: 11%;
+    position: absolute;
+}
+
+#addReminderPage #hourTextForYearly {
+    font-size: 22px;
+    color: #363536;
+    float: left;
+    left: 25%;
+    top: 20.5%;
+    position: absolute;
+}
+
+#addReminderPage #yearlyShortText{
+    color: #0C5683;
+    text-decoration: underline;
+    position: absolute;
+    float: left;
+    width: 25%;
+    left: -5%;
+    top: 6%;
+}
+
+#addReminderPage #weeklyShortText{
+    color: #0C5683;
+    float: right;
+    left: 6%;
+    top: 53%;
+    text-decoration: underline;
+    position: absolute;
+}
+
+#addReminderPage #hourDayTextForWeekly {
+    color: #363536;
+    float: right;
+    left: 28%;
+    top: 56%;
+    position: absolute;
+}
+
+#addReminderPage #hourTextForWeekly {
+    color: #363536;
+    float: right;
+    left: 25%;
+    top: 65%;
+    position: absolute;
+}
+
+#addReminderPage #dailyText {
+    font-size: 22px;
+    color: #363536;
+    float: right;
+    left: 94%;
+    top: -2%;
+    position: absolute;
+    width: 200%;
+}
+
+#addReminderPage select {
+    float: right;
+    width: 40%;
+    font-size: 20px;
+    margin: 3%;
+    border: none;
+    background-image: url("../../images/Profile/text_box_select_eng2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 1.5%;
+}
+
+#addReminderPage #selectYearlyDay{
+    position: absolute;
+    float: left;
+    left: 54%;
+    top: 6%;
+    background: url("../../images/Profile/text_box_select_eng2.png");
+    background-repeat: no-repeat;
+    text-indent: 0.4em;
+    -webkit-appearance: none;
+    background-size: 100%;
+}
+#addReminderPage #selectYearlyMonth{
+    position: absolute;
+    float: left;
+    background: url("../../images/Profile/text_box_select_eng2.png");
+    background-repeat: no-repeat;
+    text-indent: 0.4em;
+    -webkit-appearance: none;
+    background-size: 100%;
+    left: 10%;
+    top: 6%;
+    width: 40%;
+    font-size: 9px;
+    height: 24%;
+}
+#addReminderPage #selectYearlyMin{
+    background: url("../../images/Profile/text_box_select_eng2.png");
+    background-repeat: no-repeat;
+    text-indent: 0.4em;
+    -webkit-appearance: none;
+    background-size: cover;
+    position: absolute;
+    float: left;
+    left: 54%;
+    top: 35%;
+    background-size: 100%;
+}
+#addReminderPage #selectYearlyHour{
+    background: url("../../images/Profile/text_box_select_eng2.png");
+    background-repeat: no-repeat;
+    text-indent: 0.4em;
+    -webkit-appearance: none;
+    position: absolute;
+    float: left;
+    left: 10%;
+    top: 35%;
+    background-size: 100%;
+}
+
+#addReminderPage #selectWeeklyDay{
+    background: url("../../images/Profile/text_box_select_eng2.png");
+    background-repeat: no-repeat;
+    text-indent: 0.4em;
+    -webkit-appearance: none;
+    background-size: cover;
+    position: absolute;
+    float: left;
+    left: 10%;
+    top: 32%;
+    background-size: 100%;
+    width: 40%;
+    font-size: 9px;
+    height: 24%;
+}
+
+#addReminderPage #selectWeeklyMin{
+    background: url("../../images/Profile/text_box_select_eng2.png");
+    background-repeat: no-repeat;
+    text-indent: 0.4em;
+    -webkit-appearance: none;
+    position: absolute;
+    float: left;
+    left: 54%;
+    top: 61%;
+    background-size: 100%;
+}
+#addReminderPage #selectWeeklyHour{
+    background: url("../../images/Profile/text_box_select_eng2.png");
+    background-repeat: no-repeat;
+    text-indent: 0.4em;
+    -webkit-appearance: none;
+    position: absolute;
+    float: left;
+    left: 10%;
+    top: 61%;
+    background-size: 100%;
+}
+
+#addReminderPage #selectDailyMin{
+    background: url("../../images/Profile/text_box_select_eng2.png");
+    background-repeat: no-repeat;
+    text-indent: 0.4em;
+    -webkit-appearance: none;
+    position: absolute;
+    float: left;
+    left: 54%;
+    top: 22%;
+    background-size: 100%;
+
+}
+#addReminderPage #selectDailyHour{
+    background: url("../../images/Profile/text_box_select_eng2.png");
+    background-repeat: no-repeat;
+    text-indent: 0.4em;
+    -webkit-appearance: none;
+    position: absolute;
+    float: left;
+    left: 10%;
+    top: 22%;
+    background-size: cover;
+}
+
+#addReminderPage #reminder_note {
+    background-repeat: no-repeat;
+    background-image: url('../../images/Register/text-input-box.png');
+    text-align: right;
+    overflow-x: auto;
+    top: 70%;
+    height: 26%;
+    width: 148.5%;
+    font-size: 22px;
+    border: none;
+    padding: 1%;
+    /* line-height: 1em; */
+    position: absolute;
+    left: -52.5%;
+    margin: auto;
+    text-indent: 0.5em;
+    text-align: left;
+    background-size: 100%;
+}
+
+::-webkit-input-placeholder {
+    color: #726C6C;
+}
+
+#addReminderPage #ok {
+    background-image: url("../../images/Donation/accept-button.png");
+    left: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 49%;
+    height: 10%;
+    border: 0px;
+    display: block;
+    text-align: center;
+    padding: 0% 1% 10% 0%;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 83%;
+}
+

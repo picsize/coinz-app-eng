@@ -1,0 +1,220 @@
+#register #content{
+    font: "HELVETICA REGULAR";;
+    width: 100%;
+    float: right;
+    background-color: #EFEFEF;
+    top: 0%;
+    /* position: absolute; */
+    height: 100vh;
+}
+
+#register #bgImg{
+    width: 100%;
+    background-image: url('../images/Register/register_screen-menu-bg.png');
+    background-repeat: no-repeat;
+    float: right;
+    background-position: center center;
+    top: 15%;
+    background-size: 83%;
+    position: absolute;
+    height: 52%;
+}
+
+#register #headerReg{
+    background-image: url('../images/Header/header_plain_no_top_line.png');
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    font: "HELVETICA REGULAR";
+    background-repeat: no-repeat;
+    padding-bottom: 18%;
+    position: fixed;
+    height: 1px;
+    top: 0%;
+    color: #ffffff;
+}
+
+#register form {
+    font-size: 13px;
+    position: absolute;
+    float: left;
+    left: 13%;
+    width: 72%;
+    top: 24%;
+}
+
+#register img {
+    width: 90%;
+    display: block;
+    margin-right: 6%;
+    float: right;
+    height: 20%;
+}
+
+#register #title {
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 35%;
+    font:"HELVETICA BOLD";
+    color: #ffffff;
+}
+
+#register #subTitle {
+    top: 13%;
+    float: right;
+    text-decoration: none;
+    font: "HELVETICA REGULAR";
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#register input {
+    background-image: url("../images/Register/text-input-box.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2% 5% 2% 0%;
+    width: 93%;
+    margin-bottom: 2%;
+    float: right;
+    font-size: 22px;
+    border: none;
+    text-indent: 0.5em;
+}
+
+#register select {
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 98%;
+    font-size: 22px;
+    font: "HELVETICA REGULAR";
+    float: right;
+    background: url("../images/Register/select_text_box_eng.png");
+    text-indent: 0.4em;
+    -webkit-appearance: none;
+    background-size: contain;
+    width: 98%;
+    padding: 2%;
+}
+
+#register option {
+    border-radius: 0;
+    width:100%;
+}
+
+#register #chkSelect {
+    float: right;
+    width: 4%;
+    top: 105.5%;
+    left: 0%;
+    position: absolute;
+}
+
+#register #termsText {
+    top: 105%;
+    float: right;
+    text-decoration: none;
+    font: "HELVETICA REGULAR";
+    float: left;
+    margin-left: 11%;
+    position: absolute;
+}
+
+#register #termsText a {
+    text-decoration: underline;
+    color: #0C5683;
+}
+
+#loginText {
+    float: right;
+    background-color: #EFEFEF;
+    margin: auto;
+    /* margin-right: 12%; */
+    top: 91%;
+    position: absolute;
+    left: 0;
+    width:100%;
+    text-align: center;
+    font: "HELVETICA REGULAR";
+}
+
+#register .registerbutton {
+    background-image: url("../images/Register/sign-in-button.png");
+    width: 68%;
+    left: 18%;
+    float: right;
+    font-size: 28px;
+    background-size: contain;
+    padding: 0;
+    background-color: transparent;
+    top: 130%;
+    position: absolute;
+    height: 28%;
+}
+
+a {
+    color: #00A7E8;
+}
+
+#appterms {
+    display:none;
+    font: "HELVETICA REGULAR";
+}
+
+#login {
+    display:none;
+}
+
+#headerTerms{
+    background-image: url('../images/Header/header_plain_no_top_line.png');
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    background-repeat: no-repeat;
+    padding-bottom: 18%;
+    position: fixed;
+    height: 1px;
+    top: 0%;
+    color: #ffffff;
+    font: "HELVETICA REGULAR";
+}
+
+#titleTerms {
+    text-align: center;
+    margin: auto;
+    margin-top: 7%;
+    font: "HELVETICA REGULAR";
+}
+
+#goBack {
+    background-image: url('../images/Buttons/back.png');
+    background-size: contain;
+    width: 100%;
+    float: left;
+    height: 62%;
+    background-repeat: no-repeat;
+    top: 17%;
+    left: 0%;
+    position: absolute;
+}
+
+#appterms #stripContainer {
+    background-color: #EFEFEF;
+    position: fixed;
+    height: 8%;
+    float: left;
+    width: 100%;
+    top: 10%;
+}
+
+#appterms .text {
+    padding: 4%;
+    font: "HELVETICA REGULAR";
+    margin-top: 31%;
+    direction: ltr;
+    text-align: left;
+}
