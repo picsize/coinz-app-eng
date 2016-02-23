@@ -40,7 +40,7 @@ var registerForm = {
     },
     setSubmitEvent:function(){
         var self = this;
-        $("#registerFormOne").on("submit", function(event){
+        $("#registerFormOne").on("submit", function (event) {
             event.preventDefault();
             var form = $(this);
             var ajax_data = coinz.dataFromForm(form);
