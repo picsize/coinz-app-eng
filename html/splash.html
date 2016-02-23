@@ -8,12 +8,9 @@
     <script src="../js/lib/lazyload.js"></script>
     <script src="../js/includeNoCordova.js"></script>
 	<script>
-        document.addEventListener('deviceready', function () {
-            alert(navigator.notification);
-            include.execute(function () {
-                splashPage.init();
-            });
-        }, false);
+        include.execute(function () {
+            splashPage.init();
+        });
 	</script>
 </head>
 <body>

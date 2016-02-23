@@ -206,12 +206,12 @@ var registerForm = {
             var title =  'Registration completed';
             var msg = 'You can use the app now.';
             var btnLabel = 'Confirm';
-            navigator.notification.alert(
+            /*navigator.notification.alert(
                 msg,
                 null,         // callback
                 title,            // title
                 btnLabel                  // buttonName
-            );
+            );*/
             coinz.goTo('main.html');
         });
     },
